@@ -5,17 +5,16 @@ body {
     padding: 0;
 }
 
-/* هيدر بسيط يشبه شريط MIT */
+
 .title {
     text-align: center;
     margin: 0 0 30px 0;
     padding: 20px;
-    background-color: #a31f34; /* لون قريب من MIT */
+    background-color: #a31f34; 
     color: #ffffff;
     font-size: 24px;
 }
 
-/* محتوى الصفحة يبدأ بعد الهيدر */
 .courses {
     display: flex;
     flex-wrap: wrap;
