@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+/* هيدر بسيط يشبه شريط MIT */
+.title {
+    text-align: center;
+    margin: 0 0 30px 0;
+    padding: 20px;
+    background-color: #a31f34; /* لون قريب من MIT */
+    color: #ffffff;
+    font-size: 24px;
+}
+
+/* محتوى الصفحة يبدأ بعد الهيدر */
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.course {
+    background: white;
+    width: 250px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.course img {
+    width: 100%;
+    height: 150px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background: #4a5cff;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.back {
+    display: inline-block;
+    margin: 15px 20px;
+    text-decoration: none;
+    color: #4a5cff;
+}
+
+.desc {
+    max-width: 600px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.video {
+    max-width: 600px;
+    margin: 20px auto;
+}
